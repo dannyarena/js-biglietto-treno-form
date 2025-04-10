@@ -16,7 +16,11 @@ if (eta < 18) {
 
   prezzoFinale = prezzoFinale.toFixed(2);
 
-  document.getElementById('output').textContent = "Il prezzo del tuo biglietto è: " + prezzoFinale + "€";
+  document.getElementById('output').innerHTML = `
+  <div class="alert alert-success" role="alert">
+    Il prezzo del tuo biglietto è: <strong>${prezzoFinale}€</strong>
+  </div>
+`;
 
 
   });
