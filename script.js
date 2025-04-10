@@ -12,3 +12,7 @@ if (eta < 18) {
   } else {
     prezzoFinale = prezzoBase;
   }
+
+  prezzoFinale = prezzoFinale.toFixed(2);
+
+  console.log("Il prezzo del tuo biglietto è: " + prezzoFinale + "€");
