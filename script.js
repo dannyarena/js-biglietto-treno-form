@@ -15,7 +15,10 @@ if (eta < 18) {
   }
 
   prezzoFinale = prezzoFinale.toFixed(2);
-  
+
+  document.getElementById('output').textContent = "Il prezzo del tuo biglietto è: " + prezzoFinale + "€";
+
+
   });
 
   
